@@ -1,0 +1,47 @@
+https://fa-etir-test-saasfaprod1.fa.ocs.oraclecloud.com/
+username: myemail
+pasword: Welcome@2025!!
+
+workspace link:
+
+https://etir-test-devcsapp-05101534-7809-cacctetie.developer.ocp.oraclecloud.com/etir-test-devcsapp-05101534-7809-cacctetie/uiext/vbdt/index.html?root=application&application=etir-test-devcsapp-05101534-7809-cacctetie_cx-service_186434_101-1.0&artifact=extension1_-_sources_-_ui_-_oracle_cx_serviceUI_-_applications_-_service_-_flows_-_ec_-_flows_-_sr_-_pages_-_edit-page-x&section=actions&organizationId=etir-test-devcsapp-05101534-7809-cacctetie&restUrl=s2%2Fetir-test-devcsapp-05101534-7809-cacctetie_cx-service_186434%2Fvbdt%2F&serverRoot=%2F
+
+vbcs login
+ lavanya.gajula@oracle.com/
+ Oracle@123
+ 
+ 
+ 
+ https://community.oracle.com/customerconnect/discussion/796105/training-implementing-redwood-sales
+ 
+ 
+ 1Z0-1042-25: Oracle Cloud Infrastructure 2025 Application Integration Professional
+ 
+ 
+ https://education.oracle.com/racetocerttesting
+ 
+ 
+ tools
+ import user
+ send pending ldap
+ retrieve latest ldap changes
+ 
+ 
+ 
+ 
+Manage Generative AI Features in Sales
+
+Configure Adaptive Search
+
+
+A) Please run the Adaptive Search processes:
+  1. Navigate to Setup&Maintenance > Tasks > Search for Configure Adaptive Search
+  2. Go to Setup tab > Actions > Full publish
+  3. After the Publish process finishes, go to Monitor tab
+  4. Periodic refresh > Start process > wait for this to complete before starting next process.
+  5. Maintenance > Start process > wait for this to complete before starting next process.
+  6. Territory and Resource Hierarchy Refresh > Start process > wait for this to complete before starting next process.
+  7. Synchronize Access Rules Data > Start process.
+  After this, check again if records are coming in the Redwood.
+
+B) Run Publish Feed Elements process if needed. This needs Spectra provisioned to the environment.

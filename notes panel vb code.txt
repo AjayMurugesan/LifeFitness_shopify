@@ -1,0 +1,14 @@
+<oj-vb-fragment bridge="[[vbBridge]]" name="oracle_cx_fragmentsUI:cx-note" class="oj-sp-foldout-layout-panel">
+    <oj-vb-fragment-param name="resource"
+      value='[[ {"name": "opportunities", "primaryKey": "OptyId", "puid": "OptyNumber", "endpoint": "cx" } ]]'>
+    </oj-vb-fragment-param>
+    <oj-vb-fragment-param name="query"
+      value='[[ [{"type": "selfLink", "params": [{"key": "opportunities_Id", "value": $base.page.variables.puid }]}] ]]'></oj-vb-fragment-param>
+    <oj-vb-fragment-param name="style" value="[['foldout']]"></oj-vb-fragment-param>
+    <oj-vb-fragment-param name="child"
+      value='[[ {"name": "Note", "primaryKey": "Id", "relationship": "Child"} ]]'></oj-vb-fragment-param>
+  </oj-vb-fragment>
+  
+  
+  
+  

@@ -1,0 +1,288 @@
+{
+  "description": "",
+  "variables": {},
+  "types": {},
+  "eventListeners": {},
+  "events": {},
+  "imports": {},
+  "addLayouts": {
+    "Layout_Defaultcustomlayout_1621523343102": {
+      "expression": "[[ 'Layout_Defaultcustomlayout_1621523343102' ]]",
+      "type": "/cx"
+    },
+    "Layout_Defaultcustomlayout_1621523348908_EditLayout": {
+      "expression": "[[ 'Layout_Defaultcustomlayout_1621523348908_EditLayout' ]]",
+      "type": "/cx"
+    },
+    "Layout_ProspectLayout_1627554238931_SubviewLayout": {
+      "expression": "[[ 'Layout_ProspectLayout_1627554238931_SubviewLayout' ]]",
+      "type": "/cx"
+    },
+    "Layout_Defaultcustomlayout_1621372442485_SubviewLayout": {
+      "expression": "[[ 'Layout_Defaultcustomlayout_1621372442485_SubviewLayout' ]]",
+      "type": "/cx"
+    },
+    "Layout_Defaultcustomlayout_1621376631322_SubviewLayout": {
+      "expression": "[[ 'Layout_Defaultcustomlayout_1621376631322_SubviewLayout' ]]",
+      "type": "/cx"
+    }
+  },
+  "addSubLayouts": {
+    "/CreateLayout": {
+      "Layout_Defaultcustomlayout_1621523343102": {
+        "layoutType": "form",
+        "label": "Default custom layout",
+        "layout": {
+          "displayProperties": [
+            "Name",
+            "TargetPartyId",
+"KeyContactId",
+            {
+                "OpportunityType_c": {
+                  "required": true
+                }
+              },
+"{{   $fields.OpportunityType_c.value() == 'Other1X' ?  'Other1XTypes_c' : null }}",
+            "{{ $fields.OpportunityType_c.value() == 'IOP'  ?  'IOPType_c' : null }}",
+            "BusinessUnit_c",
+            "DecisionDate_c",
+            "EffectiveDate",
+            "SalesMethodId",
+            "SalesStageId",
+            "WinProbability_c",
+            "Schedule_c",
+            "NumberOfUnits_c",
+            "CustomerAccountId",
+            "ChildRevenue.productGroups"            
+          ],
+          "direction": "row",
+          "maxColumns": 2,
+          "colspan": 2,
+          "fieldTemplateMap": {
+            "ChildRevenue.productGroups": "productPickerTemplateCustom",
+            "CustomerAccountId": "acountPickerCustom",
+            "TargetPartyId": "/accountPickerTemplate"
+
+          }
+        },
+        "usedIn": [
+          "Layout_Defaultcustomlayout_1621523343102"
+        ]
+      },
+      "Layout_Defaultcustomlayout_1621523343102_copy": {
+        "layoutType": "form",
+        "label": "Default custom layout",
+        "layout": {
+          "displayProperties": [
+            "Name",
+            "TargetPartyId",
+            "KeyContactId",
+            {
+              "OpportunityType_c": {
+                "required": true
+              }
+            },
+            "{{   $fields.OpportunityType_c.value() == 'Other1X' ?  'Other1XTypes_c' : null }}",
+            "{{ $fields.OpportunityType_c.value() == 'IOP'  ?  'IOPType_c' : null }}",
+            "BusinessUnit_c",
+            "DecisionDate_c",
+            "EffectiveDate",
+            "SalesMethodId",
+            "SalesStageId",
+            "WinProbability_c",
+            "Schedule_c",
+            "NumberOfUnits_c",
+            "CustomerAccountId",
+            "ChildRevenue.products",
+            "ChildRevenue.Quantity",
+            "ChildRevenue.UnitPrice",
+            "ChildRevenue.AmountAggregatedForScheduleFlag",
+            "ChildRevenue.productGroups"
+          ],
+          "direction": "row",
+          "maxColumns": 2,
+          "colspan": 2,
+          "fieldTemplateMap": {
+            "ChildRevenue.products": "productPickerTemplate",
+            "CustomerAccountId": "acountPickerCustom",
+            "TargetPartyId": "/accountPickerTemplate"
+          }
+        },
+        "usedIn": [
+          "Layout_Defaultcustomlayout_1621523343102_copy"
+        ]
+      }
+    },
+    "/EditLayout": {
+      "Layout_Defaultcustomlayout_1621523348908_EditLayout": {
+        "layoutType": "form",
+        "label": "Default custom layout",
+        "layout": {
+          "displayProperties": [
+            "Name",
+            "TargetPartyId",
+            "KeyContactId",
+            "OwnerResourcePartyId",
+            "WinProbability_c",
+            "StatusCode",
+            "SalesStageId",
+            "DecisionDate_c",
+            "EffectiveDate",
+            "Schedule_c",
+            "ReasonWonLostCode",
+            "SIOP_c",
+            "Revenue",
+            "CurrencyCode",
+            "SalesMethodId",
+            "OpportunityType_c",
+            "Other1XTypes_c",
+            "IOPType_c",
+            "BusinessUnit_c",
+            "NumberOfUnits_c",
+            "ASP_c",
+            "DistributionCenter_c",
+            "Manufactured_c",
+            "Competitors_FF_c",
+            "CPGI_c",
+            "SKUDetail_c"
+          ],
+          "direction": "row",
+          "maxColumns": 2,
+          "colspan": 2,
+          "readonly": "[[ !$fields.UpdateFlag.value() ]]"
+        },
+        "usedIn": [
+          "Layout_Defaultcustomlayout_1621523348908_EditLayout"
+        ]
+      }
+    },
+    "/SubViewLayout": {
+      "Layout_ProspectLayout_1627554238931_SubviewLayout": {
+        "layoutType": "table",
+        "label": "Prospect Layout",
+        "layout": {
+          "displayProperties": [
+            "WinProb",
+            "Name_hyperlink",
+            "TargetPartyName",
+            "PrimaryContactPartyName",
+            "Revenue",
+            "EffectiveDate",
+            "SalesStage",
+            "StatusCode",
+            {
+              "ActionsMenu": {
+                "sortable": "disabled"
+              }
+            }
+          ]
+        },
+        "usedIn": [
+          "Layout_ProspectLayout_1627554238931_SubviewLayout"
+        ]
+      },
+      "Layout_Defaultcustomlayout_1621372442485_SubviewLayout": {
+        "layoutType": "table",
+        "label": "Default custom layout",
+        "layout": {
+          "displayProperties": [
+            "WinProb",
+            "Name_hyperlink",
+            "TargetPartyName",
+            "PrimaryContactPartyName",
+            "Revenue",
+            "EffectiveDate",
+            "SalesStage",
+            "StatusCode",
+            {
+              "ActionsMenu": {
+                "sortable": "disabled"
+              }
+            }
+          ]
+        },
+        "usedIn": [
+          "Layout_Defaultcustomlayout_1621372442485_SubviewLayout"
+        ]
+      },
+      "Layout_Defaultcustomlayout_1621376631322_SubviewLayout": {
+        "layoutType": "table",
+        "label": "Default custom layout",
+        "layout": {
+          "displayProperties": [
+            "WinProb",
+            "Name_hyperlink",
+            "TargetPartyName",
+            "PrimaryContactPartyName",
+            "Revenue",
+            "EffectiveDate",
+            "SalesStage",
+            "StatusCode",
+            {
+              "ActionsMenu": {
+                "sortable": "disabled"
+              }
+            }
+          ]
+        },
+        "usedIn": [
+          "Layout_Defaultcustomlayout_1621376631322_SubviewLayout"
+        ]
+      }
+    }
+  },
+  "chainRules": {
+    "/CreateLayout": {
+      "rules": [
+        "Layout_Defaultcustomlayout_1621523343102"
+      ]
+    },
+    "/EditLayout": {
+      "rules": [
+        "Layout_Defaultcustomlayout_1621523348908_EditLayout"
+      ]
+    },
+    "/SubViewLayout": {
+      "rules": [
+        "Layout_ProspectLayout_1627554238931_SubviewLayout",
+        "Layout_Defaultcustomlayout_1621372442485_SubviewLayout",
+        "Layout_Defaultcustomlayout_1621376631322_SubviewLayout"
+      ]
+    }
+  },
+  "addTemplates": {
+    "acountPickerCustom": {
+      "title": "Acount_picker_custom",
+      "description": "",
+      "extensible": "byReference",
+      "@dt": {
+        "type": "field"
+      },
+      "dependencies": [
+        "ojs/ojinputtext"
+      ]
+    },
+    "productPickerTemplate": {
+      "title": "productPickerTemplate",
+      "description": "",
+      "extensible": "byReference",
+      "@dt": {
+        "type": "field"
+      },
+      "dependencies": [
+        "ojs/ojinputtext"
+      ]
+    },
+    "productPickerTemplateCustom": {
+      "title": "ProductPickerTemplateCustom",
+      "description": "",
+      "extensible": "byReference",
+      "@dt": {
+        "type": "field"
+      },
+      "dependencies": [
+        "ojs/ojinputtext"
+      ]
+    }
+  }
+}
