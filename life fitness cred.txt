@@ -1,0 +1,51 @@
+Partnermfa.Lifefitness.com   -vpn portal link
+
+Ajay.Murugesan@lifefitness.com
+
+/T#,9"3&Z@K$5m&
+
+
+oic rest username:
+LOICemeaDev
+oic rest password:
+Pkl1ic9y4w1cWD5XTvpmIXdev
+
+oic link : https://design.integration.us-ashburn-1.ocp.oraclecloud.com/?integrationInstance=lfnoicdev01n-lifefitness-ia
+
+
+
+account number
+error response
+
+
+create idev|
+Insert Query - 
+INSERT INTO LFINTEGRATION.LFINTG_OIC_INTEGRATIONS (
+LFINTG_INTEGRATION_ID,
+INTEGRATION_NAME,
+DESCRIPTION,
+SOURCE_SYSTEM_CODE,
+TARGET_SYSTEM_CODE,
+RETENTION_DAYS_SUCCESS,
+RETENTION_DAYS_MAX,
+RETENTION_DAYS_NO_DATA
+)
+VALUES (
+'1008',
+'LF_Shopify_OracleEBS_B2C_Sales_Orders_Wrapper',
+'LF_Shopify_OracleEBS_B2C_Sales_Orders_Wrapper service',
+'Shopify',
+'EBS',
+1,
+14,
+1
+);
+
+
+
+
+
+proc
+----------------------------------
+xxlf_shopify_ebs_accounts_sync.acctsync
+
