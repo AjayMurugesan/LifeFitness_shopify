@@ -10,6 +10,19 @@ LOICemeaDev
 oic rest password:
 Pkl1ic9y4w1cWD5XTvpmIXdev
 
+db pswd:
+Apps pwd:  jan2020_idev
+TNS:
+ 
+IDEV=
+       (DESCRIPTION=
+               (ADDRESS=(PROTOCOL=tcp)(HOST=vllfnebsidevdb02n.lifefitnessco.com)(PORT=1521))
+           (CONNECT_DATA=
+               (SERVICE_NAME=ebs_IDEV)
+               (INSTANCE_NAME=clfnidev)
+           )
+       )
+
 oic link : https://design.integration.us-ashburn-1.ocp.oraclecloud.com/?integrationInstance=lfnoicdev01n-lifefitness-ia
 
 
@@ -48,4 +61,3 @@ VALUES (
 proc
 ----------------------------------
 xxlf_shopify_ebs_accounts_sync.acctsync
-
