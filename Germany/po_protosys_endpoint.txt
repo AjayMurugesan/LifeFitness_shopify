@@ -1,1 +1,28 @@
 https://lfnoicdev01n-lifefitness-ia.integration.us-ashburn-1.ocp.oraclecloud.com/ic/api/integration/v2/flows/rest/project/LF_GERMANY_ORACLEEBS/LF_ORACLEEB_PROTOSYS_PO/1.0/V1/PurchaseOrder/Trigger
+request body:
+{
+  "Request_Id_EBS": ""
+}
+
+
+oauth dev
+ 
+ Access token url :
+
+https://idcs-04e4e12719174ac0a97d5ba3bd45892a.identity.oraclecloud.com:443/oauth2/v1/token
+
+Basic Authentication:
+
+clientId:
+
+27b51b3c51ec424093da71a642317e60
+
+Client crdential:
+
+d595a82e-7237-4a76-a3cf-8202de82cb65
+
+Grant_type: client_credentials
+
+Scope:
+
+https://016F2C7B5D6C4A23952BC655EF444ECC.integration.us-ashburn-1.ocp.oraclecloud.com:443urn:opc:resource:consumer::all
