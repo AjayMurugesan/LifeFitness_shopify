@@ -1,0 +1,9 @@
+https://api-gateway-test.de.rhenus.com:443/api/v1/lifefitness/item
+
+ 
+
+https://api-gateway-test.de.rhenus.com:443/api/v1/lifefitness/goodsreceive
+
+ 
+
+https://api-gateway-test.de.rhenus.com:443/api/v1/lifefitness/orderrequest

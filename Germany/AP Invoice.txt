@@ -1,0 +1,23 @@
+Protosys Invoice 
+
+/home/users/LOIC_FTPdev/EMEA/Invoice_Protosys/DE
+
+/home/users/LOIC_FTPdev/EMEA/Invoice_Protosys/DE/FG
+
+/home/users/LOIC_FTPdev/EMEA/Invoice_Protosys/DE/SP
+
+/home/users/LOIC_FTPdev/EMEA/Invoice_Protosys/Invoice_Protosys_IN_Archive_Dir
+
+/home/users/LOIC_FTPdev/EMEA/Invoice_Protosys/Invoice_Protosys_IN_Error_Files
+
+
+$f0_Current_Invoice_Protosys_directoryFolder/ns32:File/ns32:directory
+
+
+
+XXLF_DACH_AP_INVOICES_HDR_STG
+
+XXLF_DACH_AP_INVOICES_LINES_STG
+
+
+APPS.XXLF_DACH_AP_INV_CONV_PKG
