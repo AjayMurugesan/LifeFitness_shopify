@@ -1,0 +1,1 @@
+https://lfnoicdev01n-lifefitness-ia.integration.us-ashburn-1.ocp.oraclecloud.com/ic/api/integration/v2/flows/rest/project/LF_GERMANY_ORACLEEBS/LF_ORACLEEB_PROTOSYS_PO/1.0/V1/PurchaseOrder/Trigger
