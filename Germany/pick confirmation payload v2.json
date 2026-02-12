@@ -1,0 +1,77 @@
+{
+  "goodsdispatchconfirmation": [
+    {
+      "holding": "001",
+      "company": "LFP",
+      "gdheaders": [
+        {
+          "document": "88343898",
+          "gdtype": "320",
+          "name": "JOSE GAREA",
+          "street": "CALLE FREDERIC MOMPOU",
+          "country": "ES",
+          "zip": "08960",
+          "city": "BARCELONA",
+          "carrier": "I360",
+          "tour": "602421",
+          "preparationfinishdatetime": "20250116151243",
+          "reference": "563",
+          "gdpositions": [
+            {
+              "gddocument": "88343898",
+              "position": "1",
+              "positionreference": "19770805",
+              "item": "150-01-00005-04",
+              "uom": "KG",
+              "hscode": "8714961000",
+              "goodsdescription": "tst, Country Of Origin :TW",
+              "quantityordered": "1.000",
+              "quantitypicked": "1.000",
+              "quantitypacked": "1.000",
+              "weight": "1.80000000",
+              "volume": "0.00000",
+              "podocument": "51823000679",
+              "podocumentposition": "11",
+              "itemunitprice": "25.2461",
+              "itemdescription": "Pedal VP-S5",
+              "gdpositionsdetails": [
+                {
+                  "detquantiypicked": "1.000",
+                  "detquantitypacked": "1.000",
+                  "Serial": "1234"
+                }
+              ]
+            }
+          ],
+          "packages": [
+            {
+              "packnumber": "3229",
+              "packdatetime": "20250116151241",
+              "packstation": "ZDEVEL1",
+              "taraweight": "15.00000",
+              "netweight": "1.80000",
+              "bruttoweight": "16.80000",
+              "volume": "576000.00",
+              "packagingtype": "101",
+              "packlength": "80.00",
+              "packheight": "60.00",
+              "packwide": "120.00",
+              "packagepositions": [
+                {
+                  "gdpackeddocument": "88343898",
+                  "gdpackedposition": "1",
+                  "packitem": "150-01-00005-04",
+                  "packquantity": "1.000",
+                  "packbbd": "20250116",
+                  "packgoodsid": "0",
+                  "packitemunitprice": "25.2461",
+                  "packitemdescription": "Pedal VP-S5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
