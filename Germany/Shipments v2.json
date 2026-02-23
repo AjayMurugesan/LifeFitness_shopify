@@ -1,0 +1,49 @@
+{
+    "Shipments": [{
+            "holding": "001",
+            "company": "LFO",
+            "loadingprocess": "754",
+            "goodsdispatch": [{
+                    "document": "88333926",
+                    "gdnode": [{
+                            "gdtype": "320"
+                        }
+                    ],
+                    "carrier": "I360",
+                    "tour": "601921",
+                    "loadeddatetime": "20250107154110",
+                    "gdbruttoweight": 16.80000,
+                    "gdnetweight": 1.80000,
+                    "gdtaraweight": 15.00000,
+                    "gdvolume": 576000.00,
+                    "address": "JOSE GAREACALLE FREDERIC MOMPOU",
+                    "country": "ES",
+                    "zip": "08960",
+                    "city": "BARCELONA",
+                    "reference": "541",
+                    "packages": [{
+                            "packnumber": "3225",
+                            "bruttoweight": "16.80000",
+                            "netweight": "1.80000",
+                            "taraweight": "15.00000",
+                            "volume": "576000.00",
+                            "packlength": "80.00",
+                            "packheight": "120.00",
+                            "packwide": "60.00",
+                            "packagingtype": "101",
+                            "packagepositions": [{
+                                    "gdpackeddocument": "88333926",
+                                    "gdpackedposition": 1,
+                                    "positionreference": "19770810",
+                                    "item": "150-01-00005-04",
+                                    "UOM":"KG",
+                                    "quantity": "1.000"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
