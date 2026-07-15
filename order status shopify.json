@@ -1,0 +1,37 @@
+{
+	"line_items_by_fulfillment_order": [
+		{
+			"fulfillment_order_id": 5963681366207,//OrderId
+			"salesorder_id": 12154488127679,//SalesOrderId
+			"tracking_info": {
+				"Delivernumber": "1562678",
+				"company": "UPS",
+				"Tags":"Booked"
+			},
+			"fulfillment_order_line_items": [
+				{
+					"id": 12154488127679,//LineId
+					"quantity": 1
+				},
+				{
+					"id": 12154488127680,
+					"quantity": 2
+				}
+			]
+		},
+		{
+			"fulfillment_order_id": 5963681366208,
+			"salesorder_id": 12154488127680, //SalesOrderId
+			"tracking_info": {
+				"Delivernumber": "1562678",
+				"company": "UPS"
+			},
+			"fulfillment_order_line_items": [
+				{
+					"id": 12154488127681,
+					"quantity": 1
+				}
+			]
+		}
+	]
+}
